@@ -1,0 +1,144 @@
+/* Swiper Start */
+.swiper {
+    width: 80vw;
+    height: 40vh;
+    margin-top: 5rem;
+    border-radius: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+    /* font-size: 18px; */
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*  */
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.swiper-button-prev::after,
+.swiper-rtl .swiper-button-next::after {
+    content: "<-"!important;
+    color: #3F3F3F;
+}
+
+.swiper-button-next::after,
+.swiper-rtl .swiper-button-prev::after {
+    content: "->"!important;
+    color: #3F3F3F;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0!important;
+    background-color: #fff!important;
+}
+
+.swiper-pagination-bullet:focus {
+    padding: 0 1rem!important;
+}
+/*  */
+
+.swiper-slide span {
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    line-height: 32;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Swiper End */
+
+
+
+
+/* Perks Start */
+.intro-perks {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.perk {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F1F7E9;
+    /* width: 278px; */
+    width: 17vw;
+    /* height: 91px; */
+    height: 10vh;
+    border-radius: 10px;
+    margin: 0 0.8rem;
+}
+
+.perk-icon img {
+    background-color: #E3F0D4;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.perk-info {
+    font-size: 2vh;
+}
+/* Perks End */
+
+
+
+/* Promotions Start */
+.promotions {
+    display: flex;
+    justify-content: center;
+}
+
+.promo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+    width: 1200px;
+    height: 500px;
+}
+
+.promo-item {
+    border: 2px solid;
+    background-color: #E3F0D4;
+    padding: 1rem;
+}
+
+.item-1 {
+    grid-row: span 2;
+}
+
+.item-4 {
+    grid-column: span 2;
+}
+/* Promotions End */
