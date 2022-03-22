@@ -31,7 +31,13 @@
 .swiper-button-next,
 .swiper-button-prev {
     background-color: #fff;
+    opacity: 20%;
     padding: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    opacity: 100%;
 }
 
 .swiper-button-prev::after,
@@ -92,9 +98,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #F1F7E9;
-    /* width: 278px; */
-    width: 17vw;
-    /* height: 91px; */
+    width: 15vw;
     height: 10vh;
     border-radius: 10px;
     margin: 0 0.8rem;
@@ -119,26 +123,122 @@
     justify-content: center;
 }
 
-.promo-container {
+.promo-container{
     display: grid;
+    margin: 3rem 0;
+    grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 1rem;
-    width: 1200px;
-    height: 500px;
 }
 
-.promo-item {
-    border: 2px solid;
-    background-color: #E3F0D4;
-    padding: 1rem;
+.item-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;   
 }
 
+.item-info > * {
+    margin: 1rem 0;
+}
+
+.info-title {
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 49%;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}
+
+.info-text span {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.info-text p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.promo-btn {
+    background-color: #FFFFFF;
+    color: #111111;
+    font-size: 12px;
+    width: 9rem;
+    height: 2.6rem;
+    margin-bottom: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: none;
+}
+
+/* Item 1 only */
 .item-1 {
     grid-row: span 2;
+    display: flex;
 }
 
+.item-1-info {
+    margin: 4rem 2rem;
+}
+
+/* Item 2 only */
+.item-2 {
+    display: flex;
+    background-color: #3CABE0;
+    border-radius: 10px;
+}
+
+.item-2-info {
+    margin: 1.5rem 5rem;
+    align-items: flex-end;
+}
+
+.item-2 img {
+    border-radius: 10px;
+}
+
+/* Item 3 only */
+.item-3 {
+    position: relative;
+    background-color: #75b528;;
+    display: flex;
+    border-radius: 6px;
+}
+
+.item-3-info {
+    margin: 1rem 2rem;
+}
+
+.item-3 img {
+    position: absolute;
+    left: 29.5%;
+    top: -17%;
+}
+
+
+/* Item 4 only */
 .item-4 {
+    position: relative;
+    background-color: #f5af00;
     grid-column: span 2;
+    border-radius: 6px;
+}
+
+.item-4-info {
+    margin: 1.5rem 0;
+    margin-left: 20rem;
+}
+
+.item-4 img {
+    position: absolute;
+    top: -14.4%;
+    left: -0.1%;
+}
+
+.item-4 img[alt=cat-2] {
+    position: absolute;
+    top: 29%;
+    left: 69%;
 }
 /* Promotions End */
