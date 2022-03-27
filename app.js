@@ -13,11 +13,11 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper2 = new Swiper(".mySwiper-2", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  slidesPerGroup: 3,
+  slidesPerView: 5,
+  spaceBetween: 50,
+  slidesPerGroup: 5,
   loop: true,
-  loopFillGroupWithBlank: true,
+  loopFillGroupWithBlank: false,
   pagination: {
     el: ".swiper-pagination-2",
     clickable: true,

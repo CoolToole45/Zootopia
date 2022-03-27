@@ -1,3 +1,4 @@
+/* Global Start */
 * {
     padding: 0;
     margin: 0;
@@ -17,6 +18,13 @@ body {
     background-color: #f6f9fc;
 }
 
+.hidden {
+    display: none!important;
+}
+/* Global End */
+
+
+/* Global Header Start */
 .control-panel {
     display: flex;
     justify-content: space-between;
@@ -31,6 +39,40 @@ body {
     padding: 2rem 5rem;
 }
 
+.opt-button {
+    cursor: pointer;
+    position: relative;
+}
+
+.opt-button:hover .nav-menu-content {
+    display: flex;
+}
+
+.nav-menu-content {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    margin-left: 1rem;
+    text-align: center;
+    font-family: 'FiraGO', sans-serif;
+    font-size: 16px;
+    width: 244%;
+}
+
+.nav-menu-content a:hover {
+    background-color: gold;
+}
+
+.nav-menu-content > * {
+    color: black;
+    width: 150px;
+    height: 30px;
+    margin: 0 0.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
 .user-control-panel {
     display: flex;
     margin-right: 1rem;
@@ -41,8 +83,15 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 1rem;
+    padding: 0.4rem;
     font-family: "Myriad";
     font-weight: 600;
+    cursor: pointer;
+}
+
+.user-control-panel > *:hover {
+    background-color: gold;
+    border-radius: 10px;
 }
 
 .user-control-panel div img {
@@ -62,6 +111,14 @@ body {
     font-weight: 500;
 }
 
+.nav-indicator span a:hover {
+    color: black;
+}
+/* Global Header End */
+
+
+
+/* Global Footer Start */
 .pre-footer {
     display: flex;
     margin-left: 14%;
@@ -111,6 +168,10 @@ body {
     font-size: 12px;
 }
 
+.panel a:hover {
+    color: black;
+}
+
 .panel img[alt=facebook] {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -137,18 +198,4 @@ body {
 .payment-logo svg {
     margin: 0 1rem;
 }
-
-/* .zone2::after {
-    content: "";
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    z-index: -1;
-    left: 0%;
-    top: 65rem;
-    background-color: gold;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-    border: 10px solid gray;
-    border-bottom: 0;
-} */
+/* Global Footer End */
