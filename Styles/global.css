@@ -41,6 +41,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0 1rem;
+    font-family: "Myriad";
+    font-weight: 600;
 }
 
 .user-control-panel div img {
@@ -48,7 +50,8 @@ body {
 }
 
 .user-control-panel div small {
-    font-size: 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .nav-indicator {

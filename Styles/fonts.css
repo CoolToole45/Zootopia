@@ -6,3 +6,8 @@
 @import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:500');
 /* font-family: 'FiraGO', sans-serif; */
 /* font-weight: 500; */
+
+@font-face {
+    font-family: "Myriad";
+    src: url(../Fonts/Myriad.TTF);
+}

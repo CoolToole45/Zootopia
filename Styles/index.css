@@ -1,7 +1,7 @@
 /* Swiper Start */
 .swiper {
-    width: 80vw;
-    height: 40vh;
+    width: 89rem;
+    height: 20rem;
     margin-top: 5rem;
     border-radius: 20px;
 }
@@ -10,6 +10,9 @@
     text-align: center;
     /* font-size: 18px; */
     background: #fff;
+    background-image: url(../Img/Rectangle.png);
+    background-size: cover;
+    background-position: center;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -60,14 +63,32 @@
 .swiper-pagination-bullet:focus {
     padding: 0 1rem!important;
 }
-/*  */
 
 .swiper-slide span {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50px;
+    max-width: 350px;
     position: absolute;
-    color: white;
-    font-size: 3vh;
+    top: 30%;
+    color: #fff;
+    line-height: 30px;
     text-align: center;
-    line-height: 32;
+    font-family: "Myriad";
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.swiper-slide span button {
+    margin-top: 2rem;
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.swiper-slide span button:hover {
+    color: #fff;
+    background-color: #f5af00;
 }
 
 .swiper-slide img {
@@ -98,10 +119,10 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #F1F7E9;
-    width: 15vw;
-    height: 10vh;
+    width: 18rem;
+    height: 6rem;
     border-radius: 10px;
-    margin: 0 0.8rem;
+    margin: 0 2.8rem;
 }
 
 .perk-icon img {
@@ -111,7 +132,9 @@
 }
 
 .perk-info {
-    font-size: 2vh;
+    font-family: "Myriad";
+    font-weight: 500;
+    font-size: 20px;
 }
 /* Perks End */
 
@@ -123,12 +146,12 @@
     justify-content: center;
 }
 
-.promo-container{
+.promo-container {
     display: grid;
-    margin: 3rem 0;
+    margin: 2rem 0;
     grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 28rem);
+    grid-template-rows: repeat(2, 15rem);
 }
 
 .item-info {
@@ -144,18 +167,24 @@
 
 .info-title {
     color: #FFFFFF;
+    font-family: "Myriad";
+    font-weight: 600;
     font-size: 14px;
-    width: 49%;
+    width: 51%;
     padding-bottom: 0.3rem;
     border-bottom: 1px solid rgba(224, 224, 224, 0.5);
 }
 
 .info-text span {
+    font-family: "Myriad";
+    font-weight: 600;
     font-size: 24px;
     color: #FFFFFF;
 }
 
 .info-text p {
+    font-family: "Myriad";
+    font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
 }
@@ -164,22 +193,41 @@
     background-color: #FFFFFF;
     color: #111111;
     font-size: 12px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
     width: 9rem;
     height: 2.6rem;
     margin-bottom: 0;
     border-radius: 6px;
     cursor: pointer;
     border-style: none;
+    transition: all 0.2s ease;
+}
+
+.promo-btn:hover {
+    color: #fff;
+    background-color: #f5af00;
 }
 
 /* Item 1 only */
 .item-1 {
+    position: relative;
     grid-row: span 2;
     display: flex;
+    background-color: #F5621F;
+    border-radius: 10px;
 }
 
 .item-1-info {
     margin: 4rem 2rem;
+}
+
+.item-1 img {
+    position: absolute;
+    width: 65%;
+    top: 24.5%;
+    left: 35.6%;
+    border-radius: 10px;
 }
 
 /* Item 2 only */
@@ -212,8 +260,9 @@
 
 .item-3 img {
     position: absolute;
-    left: 29.5%;
-    top: -17%;
+    left: 24.2%;
+    top: -21.4%;
+    width: 76%;
 }
 
 
@@ -222,7 +271,7 @@
     position: relative;
     background-color: #f5af00;
     grid-column: span 2;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .item-4-info {
@@ -230,15 +279,329 @@
     margin-left: 20rem;
 }
 
-.item-4 img {
+.item-4 img[alt=cat-1] {
     position: absolute;
-    top: -14.4%;
-    left: -0.1%;
+    top: -25.2%;
+    left: -0.2%;
+    width: 52%;
+    border-radius: 10px;
 }
 
 .item-4 img[alt=cat-2] {
     position: absolute;
-    top: 29%;
-    left: 69%;
+    top: 15.8%;
+    left: 61%;
+    width: 33%;
 }
 /* Promotions End */
+
+
+/* Top Products Start */
+.top-products-container {
+    margin: 1rem 16rem 6rem;
+    position: relative;
+}
+
+.top-products-container img[alt=slide-arrow-left] {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 1.2rem 1rem;
+    border: 1px solid #E7E7E733;
+
+    transform: rotate(180deg);
+}
+
+.top-products-container img[alt=slide-arrow-right] {
+    position: absolute;
+    top: 50%;
+    left: 107%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 1.2rem 1rem;
+    border: 1px solid #E7E7E733;
+}
+
+.top-prod-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.top-prod-title h2 {
+    font-family: "Myriad";
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.top-prod-title a {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.top-prod-items {
+    display: grid;
+    grid-template-columns: repeat(4, 17.8rem);
+    justify-content: center;
+    grid-gap: 5rem;
+}
+
+.product-item {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #E7E7E74D;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.prod-item-img {
+    margin: 0 auto;
+}
+
+.prod-item-img .discount {
+    position: absolute;
+    background-color: #F5621F;
+    padding: 0.8rem;
+    border-radius: 6px;
+}
+
+.prod-item-info {
+    padding: 1rem;
+    width: 109%;
+}
+
+.prod-item-info h3 {
+    font-family: "Myriad";
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0.5rem 0;
+}
+
+.prod-item-info p {
+    font-size: 13px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #6E6E6E;
+}
+
+.prod-item-amount {
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr;
+    grid-template-rows: 1.2fr 1.2fr;
+    grid-gap: 1rem 0.5rem;
+    margin-bottom: 1rem;
+    height: 110px;
+}
+
+.prod-item-amount button {
+    padding: 1rem 2.1rem;
+    /* margin: 0.2rem 0.6rem; */
+    font-size: 13px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 400;
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.prod-item-amount button:hover,
+.prod-item-amount button:focus {
+    background-color: #E7E7E7;
+    font-weight: 500;
+}
+
+.prod-item-price {
+    display: flex;
+    align-items: center;
+}
+
+.prod-item-price .price {
+    margin-right: 5rem;
+}
+
+.price .new-price {
+    color: #F5621F;
+    font-size: 24px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.price .discounted-price {
+    text-decoration: line-through;
+    font-size: 11px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.price .current-price {
+    font-size: 24px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.price .out-of-stock {
+    font-size: 14px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.added-item {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+    padding: 0.5rem;
+    background-color: #F5621F;
+    border: none;
+    border-radius: 4px;
+}
+
+.prod-item-price img {
+    background-color: #74B42C;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.prod-item-price img:hover {
+    background-color: #4e7225;
+}
+/* Top Products End */
+
+
+
+/* Extra Promo Start */
+.extra-promo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem 8rem;
+}
+
+.extra-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 378px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Extra Item 1 */
+.extra-item-1 img[alt=card-1] {
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    z-index: 2;
+}
+
+.extra-item-1 img[alt=card-2] {
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+/* Extra Item 2 */
+.extra-item-2 img {
+    position: absolute;
+    z-index: -1;
+}
+
+.extra-item-2 .extra-info {
+    padding: 2.5rem 2rem;
+    margin-bottom: 0.8rem;
+    font-family: "Myriad";
+    font-weight: 500;
+}
+
+.extra-item-2 .promo-btn {
+    margin: 0 2rem;
+}
+
+/* Extra Item 3 */
+.extra-item-3 img[alt=dog-food]{
+    width: 50%;
+}
+
+.extra-item-3 img[alt=discount-sec] {
+    position: absolute;
+    left: 58%;
+    top: -4%;
+}
+/* Extra Promo End */
+
+
+/* Turtle Banner Start */
+.turtle-banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-container {
+    width: 72vw;
+    height: 250px;
+    background-color: #F5AD00;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: inherit;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.banner-info {
+    position: absolute;
+    padding: 3rem 7rem;
+    color: #fff;
+    font-family: "Myriad";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.banner-img {
+    position: relative;
+    top: -21%;
+    left: 52%;
+}
+/* Turtle Banner End */
+
+/* .mySwiper-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+} */
