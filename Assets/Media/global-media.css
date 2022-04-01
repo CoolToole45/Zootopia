@@ -1,0 +1,105 @@
+@media (max-width:990px) {
+    .pre-footer {
+        display: none;
+    }
+
+    body img[alt=leaf-1],
+    body img[alt=leaf-2],
+    body img[alt=leaf-3],
+    body img[alt=leaf-4],
+    body img[alt=leaf-5],
+    body img[alt=leaf-6] {
+        display: none;
+    }
+
+    /* Header */
+    .control-panel {
+        display: none;
+    }
+
+    .mobile-control-panel {
+        display: flex!important;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 30px;
+        margin: 0 5vw;
+        box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .mobile-control-panel > * {
+        padding: 3vh 5vw;
+    }
+
+    .lang-control > * {
+        margin: 0 1vw;
+        font-family: 'FiraGO', sans-serif;
+        font-size: 16px;
+        padding: 0.5vh;
+        border-radius: 20px;
+    }
+
+    .lang-control > *:active {
+        color: #74B42C;
+        background-color: gold;
+    }
+
+    .nav-indicator {
+        margin-left: 10vw;
+    }
+
+    .nav-indicator span:first-child {
+        display: none;
+    }
+
+
+    /* Footer */
+    .wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+        padding-bottom: 5rem;
+        width: 100vw;
+    }
+
+    .wrapper .zone3 {
+        margin-bottom: 5rem;
+    }
+
+    .wrapper .zone1 {
+        margin-top: 2vh;
+    }
+
+    .mobile-nav-menu {
+        display: block!important;
+        margin-top: 2rem;
+        width: 100vw;
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+    }
+
+    .mobile-nav-menu nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav-menu nav a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem 0.8rem;
+        color: black;
+    }
+
+    .menu-btn {
+        background-color: #74B42C;
+        border-radius: 100%;
+        padding: 0.8rem;
+    }
+
+    .menu-btn:active {
+        background-color: #54772d;
+    }
+}

@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var mainSwiper = new Swiper(".main-swiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -12,18 +12,19 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-var swiper2 = new Swiper(".mySwiper-2", {
+var swiper2 = new Swiper(".brands-slider", {
   slidesPerView: 5,
   spaceBetween: 50,
   slidesPerGroup: 5,
   loop: true,
+  autoplay: true,
   loopFillGroupWithBlank: false,
   pagination: {
     el: ".swiper-pagination-2",
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".brands-slide-button-next",
+    prevEl: ".brands-slide-button-prev",
   },
 });

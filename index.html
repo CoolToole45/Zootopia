@@ -6,27 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zootopia</title>
 	<link rel="icon" type="image/x-icon" href="Img/bird-1.png">
-	<link rel="stylesheet" href="Styles/global.css">
-	<link rel="stylesheet" href="Styles/index.css">
-	<link rel="stylesheet" href="Styles/fonts.css">
+	<link rel="stylesheet" href="Assets/Styles/global.css">
+	<link rel="stylesheet" href="Assets/Media/global-media.css">
+	<link rel="stylesheet" href="Assets/Styles/index.css">
+	<link rel="stylesheet" href="Assets/Media/index-media.css">
+	<link rel="stylesheet" href="Assets/Styles/fonts.css">
 	<link
 	rel="stylesheet"
 	href="https://unpkg.com/swiper/swiper-bundle.min.css"
 	/>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-	<script src="app.js" defer></script>
 </head>
 <body>
-	<img src="Img/Path7242.png" alt="leaf-1">
-	<img src="Img/Path7244.png" alt="leaf-2">
-	<img src="Img/Path 7247.png" alt="leaf-3">
-	<img src="Img/Path7248.png" alt="leaf-4">
-	<img src="Img/Path7251.png" alt="leaf-5">
-	<img src="Img/Path 7250.png" alt="leaf-6">
+	<img src="Assets/Img/Path7242.png" alt="leaf-1">
+	<img src="Assets/Img/Path7244.png" alt="leaf-2">
+	<img src="Assets/Img/Path 7247.png" alt="leaf-3">
+	<img src="Assets/Img/Path7248.png" alt="leaf-4">
+	<img src="Assets/Img/Path7251.png" alt="leaf-5">
+	<img src="Assets/Img/Path 7250.png" alt="leaf-6">
 	<header>
 		<div class="control-panel">
 			<div class="logo">
-				<img src="Img/ზოოტოპია ქართული -2.png" alt="logo">
+				<img src="Assets/Img/ზოოტოპია ქართული -2.png" alt="logo">
 			</div>
 			<div class="opt-button">
 				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="19" viewBox="0 0 28 19">
@@ -40,27 +40,37 @@
 					<a href="index.html">მთავარი</a>
 					<a href="about.html">ჩვენ შესახებ</a>
 					<a href="contact.html">დაგვიკავშირდით</a>
-				</div>             
+				</div>      
 			</div>
 			<div class="user-control-panel">
 				<div class="search">
-					<img src="Img/search.svg" alt="search">
+					<img src="Assets/Img/search.svg" alt="search">
 					<small>ძებნა</small>
 				</div>
 				<div class="cart">
-					<img src="Img/shopping-cart.svg" alt="cart">
+					<img src="Assets/Img/shopping-cart.svg" alt="cart">
 					<small>კალათა</small>
 				</div>
 				<div class="user-login">
-					<img src="Img/smile.png" alt="smile">
+					<img src="Assets/Img/smile.png" alt="smile">
 					<small>შესვლა</small>
 				</div>
+			</div>
+		</div>
+		<!-- Mobile Header -->
+		<div class="mobile-control-panel">
+			<div class="logo">
+				<img src="Assets/Img/ზოოტოპია ქართული 2.png" alt="logo">
+			</div>
+			<div class="lang-control">
+				<span id="GEO">GEO</span>
+				<span id="ENG">ENG</span>
 			</div>
 		</div>
 	</header>
 	<section class="intro-section">
 		<div class="intro-slider">
-			<div class="swiper mySwiper">
+			<div class="swiper main-swiper">
 				<div class="swiper-wrapper">
 				  	<div class="swiper-slide">
 						<span>
@@ -79,10 +89,10 @@
 		<div class="intro-perks">
             <div class="perk">
                 <div class="perk-icon">
-					<img src="Img/brightness-empty.png" alt="perk-icon">
+					<img src="Assets/Img/brightness-empty.png" alt="perk-icon">
                 </div>
                 <span class="perk-info">
-                    პროდუქტების<br>
+                    პროდუქტების
 					<span style="color: #afdb75;">ფართო</span>
 					არჩევანი
                 </span>
@@ -90,29 +100,29 @@
 
             <div class="perk" style="background-color: #FEEFE8;">
                 <div class="perk-icon">
-					<img src="Img/percentage.png" alt="perk-icon" style="background-color: #FDDFD2;">
+					<img src="Assets/Img/percentage-2.png" alt="perk-icon" style="background-color: #FDDFD2;">
                 </div>
                 <span class="perk-info">
                     <span style="color: #f5621f;">პრომოკოდის</span>
-					მარტივი<br>
+					მარტივი
 					სისტემა
                 </span>
             </div>
 
             <div class="perk" style="background-color: #EBF7FC;">
                 <div class="perk-icon">
-					<img src="Img/credit-card-1.png" alt="perk-icon" style="background-color: #aae2fc;">
+					<img src="Assets/Img/credit-card-1.png" alt="perk-icon" style="background-color: #aae2fc;">
                 </div>
                 <span class="perk-info">
                     მარტივი
-					<span style="color: #3CABE0;">ონლაინ</span><br>
+					<span style="color: #3CABE0;">ონლაინ</span>
 					გადახდა
                 </span>
             </div>
 
             <div class="perk" style="background-color: #FAF4FA;">
                 <div class="perk-icon">
-					<img src="Img/truck.png" alt="perk-icon" style="background-color: #fbdefd;">
+					<img src="Assets/Img/truck.png" alt="perk-icon" style="background-color: #fbdefd;">
                 </div>
                 <span class="perk-info">
 					სწრაფი
@@ -126,13 +136,13 @@
 		<div class="promo-container">
 			<!-- Item 1 -->
 			<div class="item-1">
-				<img src="Img/Rectangle 83.png" alt="dog">
+				<img src="Assets/Img/Rectangle 83.png" alt="dog">
 				<div class="item-info item-1-info">
 					<div class="info-title">
 						<span>ძაღლთა სამყარო</span>
 					</div>					
 					<div class="info-text">
-						<span>საუკეთესო არჩევანი </span><br>
+						<span>საუკეთესო არჩევანი </span>
 						<p>ერთგული მეგობრისთვის</p>
 					</div>
 					<button class="promo-btn">პროდუქციის ნახვა</button>
@@ -140,7 +150,7 @@
 			</div>
 			<!-- Item 2 -->
 			<div class="item-2">
-				<img src="Img/Rectangle 79.png" alt="fish">
+				<img src="Assets/Img/Rectangle 79.png" alt="fish">
 				<div class="item-info item-2-info">				
 					<div class="info-text">
 						<span>საუკეთესო არჩევანი </span><br>
@@ -151,7 +161,7 @@
 			</div>
 			<!-- Item 3 -->
 			<div class="item-3">
-				<img src="Img/bird.png" alt="bird">
+				<img src="Assets/Img/bird.png" alt="bird">
 				<div class="item-info item-3-info">
 					<div class="info-text">
 						<span>ყველანაირი აქსესუარი</span>
@@ -162,7 +172,7 @@
 			</div> 
 			<!-- Item 4 -->
 			<div class="item-4">
-				<img src="Img/Rectangle 151.png" alt="cat-1">
+				<img src="Assets/Img/Rectangle 151.png" alt="cat-1">
 				<div class="item-info item-4-info">
 					<div class="info-text">
 						<span>100% ნატურალური საკვები</span><br>
@@ -170,7 +180,7 @@
 					</div>
 					<button class="promo-btn">პროდუქციის ნახვა</button>
 				</div>
-				<img src="Img/Rectangle 86.png" alt="cat-2">
+				<img src="Assets/Img/Rectangle 86.png" alt="cat-2">
 			</div>
 		</div>
 	</section>
@@ -180,13 +190,13 @@
 				<h2>ტოპ პროდუქცია</h2>
 				<a href="#">ყველას ნახვა</a>
 			</div>
-			<img src="Img/arrow-long-right.png" alt="slide-arrow-left">
+			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-left">
 			<div class="top-prod-items">
 				<!-- Item 1 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 24.png" alt="product-item">
-						<img src="Img/percentage-1.png" class="discount" alt="discount">
+						<img src="Assets/Img/Rectangle 24.png" alt="product-item">
+						<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -203,13 +213,13 @@
 							<span class="new-price">135 ₾</span>
 							<span class="discounted-price">160 ₾</span>
 						</div>
-						<img src="Img/shopping-cart-1.png" alt="add-to-cart">
+						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
 					</div>
 				</div>
 				<!-- Item 2 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 25.png" alt="product-item">
+						<img src="Assets/Img/Rectangle 25.png" alt="product-item">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -224,13 +234,13 @@
 						<div class="price">
 							<span class="current-price">140.45 ₾</span>
 						</div>
-						<img src="Img/shopping-cart-1.png" alt="add-to-cart">
+						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
 					</div>
 				</div>
 				<!-- Item 3 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 26.png" alt="product-item">
+						<img src="Assets/Img/Rectangle 26.png" alt="product-item">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -249,7 +259,7 @@
 				<!-- Item 4 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 27.png" alt="product-item">
+						<img src="Assets/Img/Rectangle 27.png" alt="product-item">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -267,20 +277,20 @@
 					</div>
 				</div>
 			</div>
-			<img src="Img/arrow-long-right.png" alt="slide-arrow-right">
+			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-right">
 		</div>
 	</section>
 	<section class="extra-promo">
 		<!-- Extra Item 1 -->
 		<div class="extra-item-1 extra-item">
-			<img src="Img/Group 87.png" alt="info-text">
-			<img src="Img/Rectangle 166.png" alt="card-1">
-			<img src="Img/Rectangle 163.png" alt="card-2">
+			<img src="Assets/Img/Group 87.png" alt="info-text">
+			<img src="Assets/Img/Rectangle 166.png" alt="card-1">
+			<img src="Assets/Img/Rectangle 163.png" alt="card-2">
 		</div>
 		<!-- Extra Item 2 -->
 		<div class="extra-item-2 extra-item">
-			<img src="Img/Rectangle 93.png" alt="background-color">
-			<img src="Img/Mask Group 3.png" alt="bunny">
+			<img src="Assets/Img/Rectangle 93.png" alt="background-color">
+			<img src="Assets/Img/Mask Group 3.png" alt="bunny">
 			<div class="extra-info">
 				<p style="font-size: 18px;">ყველაფერი</p>
 				<p style="font-size: 24px;">მღრნელებისთვის</p><br>
@@ -293,14 +303,14 @@
 				<p>ყველაზე გაყიდვადი<br>პროდუქცია</p>
 			</div>
 			<div class="discount-se">
-				<img src="Img/Rectangle 97.png" alt="discount-sec">
+				<img src="Assets/Img/Rectangle 97.png" alt="discount-sec">
 				<div class="prices">
 					<p class="new-price">135 ₾</p>
 					<p class="discounted-price">160 ₾</p>
 				</div>
 			</div>
 			<div class="extra-item-img">
-				<img src="Img/Rectangle 87.png" alt="dog-food">
+				<img src="Assets/Img/Rectangle 87.png" alt="dog-food">
 				<span>პედიგრი</span>
 				<button class="promo-btn">პროდუქციის ნახვა</button>
 			</div>
@@ -312,13 +322,13 @@
 				<h2>ბოლოს დამატებული</h2>
 				<a href="#">ყველას ნახვა</a>
 			</div>
-			<img src="Img/arrow-long-right.png" alt="slide-arrow-left">
+			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-left">
 			<div class="top-prod-items">
 				<!-- Item 1 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 24.png" alt="product-item">
-						<img src="Img/percentage-1.png" class="discount" alt="discount">
+						<img src="Assets/Img/Rectangle 24.png" alt="product-item">
+						<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -335,13 +345,13 @@
 							<span class="new-price">135 ₾</span>
 							<span class="discounted-price">160 ₾</span>
 						</div>
-						<img src="Img/shopping-cart-1.png" alt="add-to-cart">
+						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
 					</div>
 				</div>
 				<!-- Item 2 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 25.png" alt="product-item">
+						<img src="Assets/Img/Rectangle 25.png" alt="product-item">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -356,13 +366,13 @@
 						<div class="price">
 							<span class="current-price">140.45 ₾</span>
 						</div>
-						<img src="Img/shopping-cart-1.png" alt="add-to-cart">
+						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
 					</div>
 				</div>
 				<!-- Item 3 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 26.png" alt="product-item">
+						<img src="Assets/Img/Rectangle 26.png" alt="product-item">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -381,7 +391,7 @@
 				<!-- Item 4 -->
 				<div class="product-item">
 					<div class="prod-item-img">
-						<img src="Img/Rectangle 27.png" alt="product-item">
+						<img src="Assets/Img/Rectangle 27.png" alt="product-item">
 					</div>
 					<div class="prod-item-info">
 						<h3>პედიგრი</h3>
@@ -399,7 +409,7 @@
 					</div>
 				</div>
 			</div>
-			<img src="Img/arrow-long-right.png" alt="slide-arrow-right">
+			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-right">
 		</div>
 	</section>
 	<section class="turtle-banner">
@@ -410,7 +420,7 @@
 				<button class="promo-btn">პროდუქციის ნახვა</button>
 			</div>
 			<div class="banner-img">
-				<img src="Img/shutterstock_263854013.png" alt="turtle">
+				<img src="Assets/Img/shutterstock_263854013.png" alt="turtle">
 			</div>
 		</div>
 	</section>
@@ -420,44 +430,44 @@
 			<div class="brands-title">
 				<h2>ბრენდები</h2>
 			</div>
-            <div class="swiper mySwiper-2">
+            <div class="swiper brands-slider">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 38.png" alt="1">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 38.png" alt="1">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 39.png" alt="2">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 39.png" alt="2">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 40.png" alt="3">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 40.png" alt="3">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 41.png" alt="4">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 41.png" alt="4">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 45.png" alt="5">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 45.png" alt="5">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 47.png" alt="6">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 47.png" alt="6">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                    <img src="Img/Rectangle 41.png" alt="7">
+                    <div class="swiper-slide brand-slide">
+                    <img src="Assets/Img/Rectangle 41.png" alt="7">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                    <img src="Img/Rectangle 40.png" alt="8">
+                    <div class="swiper-slide brand-slide">
+                    <img src="Assets/Img/Rectangle 40.png" alt="8">
                     </div>
-                    <div class="swiper-slide swiper-slide-2">
-                        <img src="Img/Rectangle 45.png" alt="9">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 45.png" alt="9">
                 </div>
                 </div>
-                <div class="swiper-button-next-2"></div>
-                <div class="swiper-button-prev-2"></div>
+                <div class="brands-slide-button-next"></div>
+                <div class="brands-slide-button-prev-2"></div>
               </div>
         </div>
 	</section>
 	<section class="pre-footer">
 		<div class="pre-footer-info">
-			<img src="Img/ზოოტოპია ქართული 2.png" alt="pre-footer-logo">
+			<img src="Assets/Img/ზოოტოპია ქართული 2.png" alt="pre-footer-logo">
 			<p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
 		</div>
 		<div class="pre-footer-control-panel">
@@ -490,7 +500,7 @@
 					<li><a href="#">(+995) 555 333 222</a></li>
 					<li><a href="#">example@gmail.com</a></li>
 					<li><a href="#">
-						<img src="Img/facebook-f.png" alt="facebook">
+						<img src="Assets/Img/facebook-f.png" alt="facebook">
 					</a></li>
 				</ul>
 			</div>
@@ -533,6 +543,34 @@
 				</div>
 			</div>
 		</div>
+		<!-- Mobile Pre-Footer -->
+		<div class="mobile-nav-menu">
+			<nav>
+				<ul>
+					<li><a href="index.html">
+						<img src="Assets/Img/home-alt.png" alt="home-btn">
+						<small style="color: #74B42C;">მთავარი</small>
+					</a></li>
+					<li><a href="#">
+						<img src="Assets/Img/search.png" alt="search">
+						<small>ძებნა</small>
+					</a></li>
+					<li><a href="#" class="menu-btn">
+						<img src="Assets/Img/Component 5 – 49.png" width="20" height="16" alt="menu">
+					</a></li>
+					<li><a href="#">
+						<img src="Assets/Img/shopping-cart.png" alt="shopping-cart">
+						<small>კალათა</small>
+					</a></li>
+					<li><a href="#">
+						<img src="Assets/Img/smile.png" alt="smile">
+						<small>შესვლა</small>
+					</a></li>
+				</ul>
+			</nav>
+		</div>
 	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="Assets/Js/app.js"></script>
 </body>
 </html>

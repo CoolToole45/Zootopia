@@ -5,25 +5,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Zootopia</title>
-	<link rel="stylesheet" href="Styles/global.css">
-	<link rel="stylesheet" href="Styles/contact.css">
-	<link rel="stylesheet" href="Styles/fonts.css">
+	<link rel="stylesheet" href="Assets/Styles/global.css">
+	<link rel="stylesheet" href="Assets/Styles/contact.css">
+	<link rel="stylesheet" href="Assets/Media/contact-media.css">
+	<link rel="stylesheet" href="Assets/Media/global-media.css">
+	<link rel="stylesheet" href="Assets/Styles/fonts.css">
 	<link
 	rel="stylesheet"
 	href="https://unpkg.com/swiper/swiper-bundle.min.css"
 	/>
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
-	<script src="app.js" defer></script>
 </head>
 <body>
-	<img src="Img/Path7242.png" alt="leaf-1">
-	<img src="Img/Path7244.png" alt="leaf-2">
-	<img src="Img/Path7248.png" alt="leaf-3">
-	<img src="Img/Path7251.png" alt="leaf-4">
+	<img src="Assets/Img/Path7242.png" alt="leaf-1">
+	<img src="Assets/Img/Path7244.png" alt="leaf-2">
+	<img src="Assets/Img/Path7248.png" alt="leaf-3">
+	<img src="Assets/Img/Path7251.png" alt="leaf-4">
 	<header>
 		<div class="control-panel">
 			<div class="logo">
-				<img src="Img/zootopiaLogo.svg" alt="logo">
+				<img src="Assets/Img/zootopiaLogo.svg" alt="logo">
 			</div>
 			<div class="opt-button">
 				<svg xmlns="http://www.w3.org/2000/svg" width="28" height="19" viewBox="0 0 28 19">
@@ -41,23 +41,33 @@
 			</div>
 			<div class="user-control-panel">
 				<div class="search">
-					<img src="Img/search.svg" alt="search">
+					<img src="Assets/Img/search.svg" alt="search">
 					<small>ძებნა</small>
 				</div>
 				<div class="cart">
-					<img src="Img/shopping-cart.svg" alt="cart">
+					<img src="Assets/Img/shopping-cart.svg" alt="cart">
 					<small>კალათა</small>
 				</div>
 				<div class="user-login">
-					<img src="Img/smile.png" alt="smile">
+					<img src="Assets/Img/smile.png" alt="smile">
 					<small>შესვლა</small>
 				</div>
+			</div>
+		</div>
+		<!-- Mobile Header -->
+		<div class="mobile-control-panel">
+			<div class="logo">
+				<img src="Assets/Img/ზოოტოპია ქართული 2.png" alt="logo">
+			</div>
+			<div class="lang-control">
+				<span id="GEO">GEO</span>
+				<span id="ENG">ENG</span>
 			</div>
 		</div>
         <div class="nav-indicator">
             <span style="color: grey;">
 				<a href="index.html" style="color: grey;">მთავარი</a>
-                <img src="Img/angle-down.png" alt="angle-down">
+                <img src="Assets/Img/angle-down.png" alt="angle-down">
             </span>
             <span>კონტაქტი</span>
         </div>
@@ -66,11 +76,13 @@
     <section>
         <div class="main-contact">
             <div class="location-display">
-                <div class="map"></div>
+                <div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23820.754187808776!2d44.7893391!3d41.7292731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b62082ebd3%3A0x46e27074f2e140ec!2z4YOT4YOQ4YOT4YOY4YOQ4YOc4YOY4YOhIOGDpeGDo-GDqeGDkCAjODc!5e0!3m2!1ska!2sge!4v1647888680768!5m2!1ska!2sge" frameborder="0"></iframe>
+				</div>
             </div>
             <div class="location-info">
                 <div class="info-piece">
-                    <img src="Img/Layer -1.png" alt="loc-icon">
+                    <img src="Assets/Img/Layer -1.png" alt="loc-icon">
                     <div class="info-text">
                         <small>მისამართი</small>
                         <span>თბილისი, დიდასნი ქ. N:124</span>
@@ -78,23 +90,27 @@
                 </div>
 
                 <div class="info-piece">
-                    <img src="Img/Layer -2.png" alt="loc-icon">
+                    <img src="Assets/Img/Layer -2.png" alt="loc-icon">
                     <div class="info-text">
                         <small>ტელ. ნომერი</small>
-                        <span>(+995) 555 333 222</span>
+                        <a href="tel:+995555333222">
+							<span>(+995) 555 333 222</span>
+						</a>
                     </div>
                 </div>
 
                 <div class="info-piece">
-                    <img src="Img/Layer -3.png" alt="loc-icon">
+                    <img src="Assets/Img/Layer -3.png" alt="loc-icon">
                     <div class="info-text">
                         <small>ელ.ფოსტა</small>
-                        <span>example@gmail.com</span>
+                        <a href="mailto:example@gmail.com">
+							<span>example@gmail.com</span>
+						</a>
                     </div>
                 </div>
 
                 <div class="info-piece">
-                    <img src="Img/Layer -4.png" alt="loc-icon">
+                    <img src="Assets/Img/Layer -4.png" alt="loc-icon">
                     <div class="info-text">
                         <small>სამუშაო საათები</small>
                         <span>ორშაბათი - პარასკევი: 09:00 - 18:00</span><br>
@@ -107,7 +123,7 @@
 
 	<section class="pre-footer">
 		<div class="pre-footer-info">
-			<img src="Img/ზოოტოპია ქართული 2.png" alt="pre-footer-logo">
+			<img src="Assets/Img/ზოოტოპია ქართული 2.png" alt="pre-footer-logo">
 			<p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
 		</div>
 		<div class="pre-footer-control-panel">
@@ -140,7 +156,7 @@
 					<li><a href="#">(+995) 555 333 222</a></li>
 					<li><a href="#">example@gmail.com</a></li>
 					<li><a href="#">
-						<img src="Img/facebook-f.png" alt="facebook">
+						<img src="Assets/Img/facebook-f.png" alt="facebook">
 					</a></li>
 				</ul>
 			</div>
@@ -183,5 +199,33 @@
 				</div>
 			</div>
 		</div>
+		<!-- Mobile Pre-Footer -->
+		<div class="mobile-nav-menu">
+			<nav>
+				<ul>
+					<li><a href="index.html">
+						<img src="Assets/Img/home-alt.png" alt="home-btn">
+						<small style="color: #74B42C;">მთავარი</small>
+					</a></li>
+					<li><a href="#">
+						<img src="Assets/Img/search.png" alt="search">
+						<small>ძებნა</small>
+					</a></li>
+					<li><a href="#" class="menu-btn">
+						<img src="Assets/Img/Component 5 – 49.png" width="20" height="16" alt="menu">
+					</a></li>
+					<li><a href="#">
+						<img src="Assets/Img/shopping-cart.png" alt="shopping-cart">
+						<small>კალათა</small>
+					</a></li>
+					<li><a href="#">
+						<img src="Assets/Img/smile.png" alt="smile">
+						<small>შესვლა</small>
+					</a></li>
+				</ul>
+			</nav>
+		</div>
 	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="Assets/Js/app.js"></script>
 </body>

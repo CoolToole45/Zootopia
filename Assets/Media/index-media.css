@@ -1,0 +1,17 @@
+@media (max-width: 990px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none!important;
+    }
+
+    .swiper {
+        width: 100vh;
+        /* height: 20rem; */
+        margin-top: 5rem;
+        border-radius: 20px;
+    }
+
+    .intro-perks {
+        flex-direction: column;
+    }
+}

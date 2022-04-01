@@ -55,3 +55,12 @@ body img[alt=leaf-4] {
     font-family: 'FiraGO', sans-serif;
     line-height: 24px;
 }
+
+/* Mobile Elements */
+.mobile-nav-menu {
+    display: none;
+}
+
+.mobile-control-panel {
+    display: none;
+}

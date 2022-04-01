@@ -60,7 +60,7 @@ body img[alt=leaf-6] {
     text-align: center;
     /* font-size: 18px; */
     background: #fff;
-    background-image: url(../Img/Rectangle.png);
+    background-image: url(/Assets/Img/Rectangle.png);
     background-size: cover;
     background-position: center;
 
@@ -79,13 +79,19 @@ body img[alt=leaf-6] {
     align-items: center;
 }
 
-/*  */
-
 .swiper-button-next,
 .swiper-button-prev {
     background-color: #fff;
     opacity: 20%;
-    padding: 2rem;
+    padding: 1.5rem;
+    background-image: url(/Assets/Img/Group\ 60.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.swiper-button-next {
+    background-image: url(/Assets/Img/Group\ 59.png);
 }
 
 .swiper-button-next:hover,
@@ -95,23 +101,22 @@ body img[alt=leaf-6] {
 
 .swiper-button-prev::after,
 .swiper-rtl .swiper-button-next::after {
-    content: "<-"!important;
-    color: #3F3F3F;
+    content: ""!important;
 }
 
 .swiper-button-next::after,
 .swiper-rtl .swiper-button-prev::after {
-    content: "->"!important;
-    color: #3F3F3F;
+    content: ""!important;
 }
 
 .swiper-pagination-bullet {
     border-radius: 0!important;
     background-color: #fff!important;
+    transition: all 0.5s ease-in-out;
 }
 
-.swiper-pagination-bullet:focus {
-    padding: 0 1rem!important;
+.swiper-pagination-bullet-active {
+    padding: 0 1rem;
 }
 
 .swiper-slide span {
@@ -167,7 +172,7 @@ body img[alt=leaf-6] {
 .perk {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #F1F7E9;
     width: 18rem;
     height: 6rem;
@@ -179,12 +184,15 @@ body img[alt=leaf-6] {
     background-color: #E3F0D4;
     padding: 1rem;
     border-radius: 10px;
+    margin: 0 2rem;
 }
 
 .perk-info {
     font-family: "Myriad";
     font-weight: 500;
     font-size: 20px;
+    word-wrap: break-word;
+    width: 70%;
 }
 /* Perks End */
 
@@ -694,13 +702,13 @@ body img[alt=leaf-6] {
     margin: 0 16rem;
 }
 
-.mySwiper-2 {
+.brands-slider {
     width: 87rem;
     height: 8rem;
     border-radius: 0!important;
 }
 
-.swiper-slide-2 {
+.brand-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -725,5 +733,14 @@ body img[alt=leaf-6] {
     height: 100%;
     object-fit: none;
 }
-
 /* Brends End */
+
+
+/* Mobile Elements */
+.mobile-nav-menu {
+    display: none;
+}
+
+.mobile-control-panel {
+    display: none;
+}
