@@ -70,16 +70,16 @@
 	</header>
 	<section class="intro-section">
 		<div class="intro-slider">
-			<div class="swiper main-swiper">
+			<div class="swiper main-slider">
 				<div class="swiper-wrapper">
-				  	<div class="swiper-slide">
+				  	<div class="swiper-slide main-slide">
 						<span>
 							მიიღე 30%-იანი ფასდაკლება პედიგრის ნებისმიე რპროდუქციაზე
 							<button class="promo-btn">შეიძინე ეხლავე</button>
 						</span>
 					</div>
-					<div class="swiper-slide"></div>
-					<div class="swiper-slide"></div>
+					<div class="swiper-slide main-slide"></div>
+					<div class="swiper-slide main-slide"></div>
 				</div>
 				<div class="swiper-button-next"></div>
 				<div class="swiper-button-prev"></div>
@@ -189,95 +189,223 @@
 			<div class="top-prod-title">
 				<h2>ტოპ პროდუქცია</h2>
 				<a href="#">ყველას ნახვა</a>
+				<div class="pagination">
+                    <p class="active"></a>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
 			</div>
-			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-left">
-			<div class="top-prod-items">
-				<!-- Item 1 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 24.png" alt="product-item">
-						<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>600გრ.</button>
-						<button>2 კგ.</button>
-						<button>5 კგ.</button>
-						<button>13 კგ.</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="new-price">135 ₾</span>
-							<span class="discounted-price">160 ₾</span>
-						</div>
-						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
-					</div>
-				</div>
-				<!-- Item 2 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 25.png" alt="product-item">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>400გრ.</button>
-						<button>8 კგ.</button>
-						<button>1 შეკვრა</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="current-price">140.45 ₾</span>
-						</div>
-						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
-					</div>
-				</div>
-				<!-- Item 3 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 26.png" alt="product-item">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>400გრ.</button>
-						<button>8 კგ.</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="out-of-stock">არ არის მარაგში</span>
-						</div>
-					</div>
-				</div>
-				<!-- Item 4 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 27.png" alt="product-item">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>400გრ.</button>
-						<button>8 კგ.</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="current-price">135 ₾</span>
-						</div>
-						<button class="added-item">დამატებულია</button>
-					</div>
-				</div>
+
+			<div class="next-prev-btn">
+				<div class="product-button-prev"></div>
+				<div class="product-button-next"></div>
 			</div>
-			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-right">
+
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-slide">
+						<!-- Item 1 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 24.png" alt="product-item">
+								<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>600გრ.</button>
+								<button>2 კგ.</button>
+								<button>5 კგ.</button>
+								<button>13 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="new-price">135 ₾</span>
+									<span class="discounted-price">160 ₾</span>
+								</div>
+								<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 2 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 25.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button>1 შეკვრა</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="current-price">140.45 ₾</span>
+								</div>
+								<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 3 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 26.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="out-of-stock">არ არის მარაგში</span>
+								</div>
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 4 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 27.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="current-price">135 ₾</span>
+								</div>
+								<button class="added-item">დამატებულია</button>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+			<!--Slider For Mobile -->
+			<div class="swiper product-slider-mobile">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-slide">
+						<!-- Item 1 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 24.png" alt="product-item">
+								<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>600გრ.</button>
+								<button>2 კგ.</button>
+								<button>5 კგ.</button>
+								<button>13 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="new-price">135 ₾</span>
+									<span class="discounted-price">160 ₾</span>
+								</div>
+								<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 2 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 25.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button>1 შეკვრა</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="current-price">140.45 ₾</span>
+								</div>
+								<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 3 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 26.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="out-of-stock">არ არის მარაგში</span>
+								</div>
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 4 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 27.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="current-price">135 ₾</span>
+								</div>
+								<button class="added-item">დამატებულია</button>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</section>
 	<section class="extra-promo">
@@ -321,95 +449,143 @@
 			<div class="top-prod-title">
 				<h2>ბოლოს დამატებული</h2>
 				<a href="#">ყველას ნახვა</a>
+				<div class="pagination">
+                    <p class="active"></a>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
 			</div>
-			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-left">
-			<div class="top-prod-items">
-				<!-- Item 1 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 24.png" alt="product-item">
-						<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>600გრ.</button>
-						<button>2 კგ.</button>
-						<button>5 კგ.</button>
-						<button>13 კგ.</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="new-price">135 ₾</span>
-							<span class="discounted-price">160 ₾</span>
+			<div class="next-prev-btn">
+				<div class="product-button-prev"></div>
+				<div class="product-button-next"></div>
+			</div>
+
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product-slide">
+						<!-- Item 1 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 24.png" alt="product-item">
+								<img src="Assets/Img/percentage-1.png" class="discount" alt="discount">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>600გრ.</button>
+								<button>2 კგ.</button>
+								<button>5 კგ.</button>
+								<button>13 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="new-price">135 ₾</span>
+									<span class="discounted-price">160 ₾</span>
+								</div>
+								<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
+							</div>
 						</div>
-						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
-					</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 2 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 25.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button>1 შეკვრა</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="current-price">140.45 ₾</span>
+								</div>
+								<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 3 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 26.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="out-of-stock">არ არის მარაგში</span>
+								</div>
+							</div>
+						</div>
+                    </div>
+                    <div class="swiper-slide product-slide">
+						<!-- Item 4 -->
+						<div class="product-item">
+							<div class="prod-item-img">
+								<img src="Assets/Img/Rectangle 27.png" alt="product-item">
+							</div>
+							<div class="prod-item-info">
+								<h3>პედიგრი</h3>
+								<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
+							</div>
+							<div class="prod-item-amount">
+								<button>400გრ.</button>
+								<button>8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+								<button class="invisible">8 კგ.</button>
+							</div>
+							<div class="prod-item-price">
+								<div class="price">
+									<span class="current-price">135 ₾</span>
+								</div>
+								<button class="added-item">დამატებულია</button>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </div>
+			<div class="mobile-item-container">
+				<div class="mobile-item-wrapper">
+					<!-- Row 1 -->
+					<img src="Assets/Img/Rectangle 24.png" alt="product">
+					<img src="Assets/Img/Rectangle 25.png" alt="product">
+					<img src="Assets/Img/Rectangle 27.png" alt="product">
+					<!-- Row 2 -->
+					<img src="Assets/Img/Rectangle 27.png" alt="product">
+					<img src="Assets/Img/Rectangle 26.png" alt="product">
+					<img src="Assets/Img/Rectangle 25.png" alt="product">
+					<!-- Row 3 -->
+					<img src="Assets/Img/Rectangle 24.png" alt="product">
+					<img src="Assets/Img/Rectangle 27.png" alt="product">
+					<img src="Assets/Img/Rectangle 26.png" alt="product">
+					<!-- Row 4 -->
+					<img src="Assets/Img/Rectangle 26.png" alt="product">
+					<img src="Assets/Img/Rectangle 25.png" alt="product">
+					<img src="Assets/Img/Rectangle 24.png" alt="product">
 				</div>
-				<!-- Item 2 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 25.png" alt="product-item">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>400გრ.</button>
-						<button>8 კგ.</button>
-						<button>1 შეკვრა</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="current-price">140.45 ₾</span>
-						</div>
-						<img src="Assets/Img/shopping-cart-1.png" alt="add-to-cart">
-					</div>
-				</div>
-				<!-- Item 3 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 26.png" alt="product-item">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>400გრ.</button>
-						<button>8 კგ.</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="out-of-stock">არ არის მარაგში</span>
-						</div>
-					</div>
-				</div>
-				<!-- Item 4 -->
-				<div class="product-item">
-					<div class="prod-item-img">
-						<img src="Assets/Img/Rectangle 27.png" alt="product-item">
-					</div>
-					<div class="prod-item-info">
-						<h3>პედიგრი</h3>
-						<p>საბეჭდი და ტიპოგრაფული<br>ინდუსტრიის უშინაარსო ტექსტია.</p>
-					</div>
-					<div class="prod-item-amount">
-						<button>400გრ.</button>
-						<button>8 კგ.</button>
-					</div>
-					<div class="prod-item-price">
-						<div class="price">
-							<span class="current-price">135 ₾</span>
-						</div>
-						<button class="added-item">დამატებულია</button>
-					</div>
+				<div class="promo-btn-div">
+					<button class="promo-btn">პროდუქციის ნახვა</button>
 				</div>
 			</div>
-			<img src="Assets/Img/arrow-long-right.png" alt="slide-arrow-right">
 		</div>
 	</section>
 	<section class="turtle-banner">
@@ -429,6 +605,13 @@
 		<div class="brands-container">
 			<div class="brands-title">
 				<h2>ბრენდები</h2>
+				<div class="pagination">
+                    <p class="active"></a>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
 			</div>
             <div class="swiper brands-slider">
                 <div class="swiper-wrapper">
@@ -451,18 +634,50 @@
                         <img src="Assets/Img/Rectangle 47.png" alt="6">
                     </div>
                     <div class="swiper-slide brand-slide">
-                    <img src="Assets/Img/Rectangle 41.png" alt="7">
+                    	<img src="Assets/Img/Rectangle 41.png" alt="7">
                     </div>
                     <div class="swiper-slide brand-slide">
-                    <img src="Assets/Img/Rectangle 40.png" alt="8">
+                    	<img src="Assets/Img/Rectangle 40.png" alt="8">
                     </div>
                     <div class="swiper-slide brand-slide">
                         <img src="Assets/Img/Rectangle 45.png" alt="9">
-                </div>
+                	</div>
                 </div>
                 <div class="brands-slide-button-next"></div>
-                <div class="brands-slide-button-prev-2"></div>
-              </div>
+                <div class="brands-slide-button-prev"></div>
+            </div>
+			<!-- Slider For Mobile -->
+			<div class="swiper brands-slider-mobile">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 38.png" alt="1">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 39.png" alt="2">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 40.png" alt="3">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 41.png" alt="4">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 45.png" alt="5">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 47.png" alt="6">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                    	<img src="Assets/Img/Rectangle 41.png" alt="7">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                    	<img src="Assets/Img/Rectangle 40.png" alt="8">
+                    </div>
+                    <div class="swiper-slide brand-slide">
+                        <img src="Assets/Img/Rectangle 45.png" alt="9">
+                	</div>
+                </div>
+            </div>
         </div>
 	</section>
 	<section class="pre-footer">
