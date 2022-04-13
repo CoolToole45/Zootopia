@@ -247,7 +247,6 @@ body img[alt=leaf-6] {
 
 .promo-btn {
     background-color: #FFFFFF;
-    color: #111111;
     font-size: 12px;
     font-family: 'FiraGO', sans-serif;
     font-weight: 500;
@@ -261,8 +260,8 @@ body img[alt=leaf-6] {
 }
 
 .promo-btn:hover {
-    color: #fff;
     background-color: #f5af00;
+    color: #fff;
 }
 
 /* Item 1 only */

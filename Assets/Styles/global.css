@@ -6,7 +6,7 @@
 }
 
 ul {
-    list-style: none;
+    list-style: none!important;
 }
 
 a {
@@ -24,6 +24,10 @@ body {
 
 .invisible {
     visibility: hidden!important;
+}
+
+.rotatetUp {
+    rotate: 180deg;
 }
 /* Global End */
 
