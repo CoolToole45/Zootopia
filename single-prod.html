@@ -91,11 +91,37 @@
 				</div>
 			</div>
 			<div class="prod-img-display">
-				<div class="main-display">
+				<div class="main-display" onclick="displayImgModal()">
 					<img src="Assets/Img/Rectangle 24.png" alt="main-prod-img">
 				</div>
 			</div>
         </div>
+		<div class="main-prod-display hidden" id="modal-display">
+			<div class="modal-content-wrapper">
+				<div class="prod-img-selection">
+					<div class="prod-img">
+						<img src="Assets/Img/Rectangle 24.png" alt="prod-img">
+					</div>
+					<div class="prod-img">
+						<img src="Assets/Img/Rectangle 24.png" alt="prod-img">
+					</div>
+					<div class="prod-img">
+						<img src="Assets/Img/Rectangle 24.png" alt="prod-img">
+					</div>
+					<div class="prod-img">
+						<img src="Assets/Img/Rectangle 24.png" alt="prod-img">
+					</div>
+				</div>
+				<div class="prod-img-display">
+					<div class="main-display">
+						<img src="Assets/Img/Rectangle 24.png" alt="main-prod-img">
+					</div>
+				</div>
+			</div>
+			<button class="close-btn" onclick="displayImgModal()">
+				<img src="Assets/Img/close.svg" alt="close">	
+			</button>
+		</div>
         <div class="main-prod-info">
 			<div class="main-prod-title">
 				<h2 class="prod-title">ედვანსი მოზარდი ძაღლი Maxi Junior 14 კგ  <h2>
@@ -325,5 +351,6 @@
 	</footer>
 	<script src="Assets/Js/showMoreText.js"></script>
 	<script src="Assets/Js/prodAmountContr.js"></script>
+	<script src="Assets/Js/prodImgModal.js"></script>
 </body>
 </html>
