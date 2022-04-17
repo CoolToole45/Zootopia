@@ -1,0 +1,298 @@
+/* Mobile Elements */
+.mobile-nav-menu {
+    display: none;
+}
+
+.mobile-control-panel {
+    display: none;
+}
+
+/* Main Section */
+.main-sec {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* Main Product Display */
+.main-prod-display {
+    display: flex;
+}
+
+.prod-img-selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.prod-img-selection img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.prod-img-display img {
+    width: 400px;
+    height: 410px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 2rem;
+}
+
+.main-display {
+    cursor: pointer;
+}
+
+/* Main Product Info */
+.main-prod-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prod-title {
+    font-size: 20px;
+    font-family: 'Myriad';
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding-right: 2.6rem;
+}
+
+.minor-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+    width: 43%;
+}
+
+.minor-info span, 
+.minor-info a {
+    color: #9C9C9C;
+    font-size: 14px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.minor-info a {
+    display: flex;
+    flex-direction: row;
+}
+
+.minor-info a img {
+    margin-right: 0.5rem;
+}
+
+.prod-amount {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 76%; */
+    width: 32rem;
+}
+
+.prod-amount button {
+    width: 8rem;
+    height: 3rem;
+    margin: 0.8rem 0.7rem;
+    font-size: 16px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 400;
+    background-color: #E7E7E7;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.prod-amount button:hover,
+.prod-amount button:focus {
+    background-color: #a0a0a0;
+    font-weight: 500;
+}
+
+
+/* Product Text Info */
+.prod-text-info {
+    width: 32rem;
+    font-size: 15px;
+}
+
+.prod-text-info p,
+.more-text-info {
+    padding: 0.2rem 1rem;
+    font-family: 'FiraGO', sans-serif;
+}
+
+#show-more-text,
+#show-less-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9C9C9C;
+    font-size: 12px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+
+#show-more-text img,
+#show-less-text img {
+    width: 2.5%;
+    rotate: 180deg;
+    margin-top: 0.2rem;
+}
+
+#show-less-text img {
+    rotate: 360deg;
+}
+
+
+
+/* Main Prod Buy */
+.prod-buy-wrapper {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.prod-buy-wrapper > * {
+    margin: 1rem 0;
+}
+
+.new-price {
+    color: #F5621F;
+    font-size: 26px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.discounted-price {
+    text-decoration: line-through;
+    font-size: 16px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+}
+
+.amount-selector {
+    position: relative;
+}
+
+.amount-selector input::-webkit-outer-spin-button,
+.amount-selector input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.amount-selector input {
+    -moz-appearance: textfield;
+    border: none;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    padding: 1rem 0;
+    margin: 1.5rem 0;
+    font-size: 24px;
+    font-family: 'FiraGO', sans-serif;
+    text-align: center;
+    outline: none;
+    position: relative;
+}
+
+.action-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    position: absolute;
+    top: 32%;
+    z-index: 1;
+}
+
+.action-btn:hover {
+    background-color: #a0a0a0;
+}
+
+#decrease {
+    left: 11%;
+}
+
+#increase {
+    right: 11%;
+}
+
+.add-to-cart button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: #74B42C;
+    color: #fff;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.add-to-cart button span {
+    font-family: 'FiraGO', sans-serif;
+    font-size: 18px;
+}
+
+.add-to-cart button img {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.add-to-cart button:hover {
+    background-color: #4a721c;
+}
+
+.brand-display {
+    margin-top: 1rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* More Info Section */
+.more-info-sec {
+    margin: 2rem 8rem 6rem;
+}
+
+.more-info-title h1 {
+    font-size: 28px;
+    font-family: 'Myriad';
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.info-table-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-table table td {
+    font-size: 20px;
+    font-family: 'FiraGO', sans-serif;
+    font-weight: 500;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-table table tbody tr td:nth-child(odd) {
+    color: #9C9C9C;
+    padding-right: 5rem;
+}
+
+.info-table table tbody tr td:nth-child(even) {
+    text-align: end;
+}

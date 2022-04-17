@@ -36,6 +36,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  cursor: pointer;
 }
 
 .order-filter-div select:active, .order-filter-div select:focus {
@@ -119,7 +120,6 @@
     background-color: #4a830a;
 }
 
-/* Filter-options */
 .filter-options {
     display: block;
     position: relative;
