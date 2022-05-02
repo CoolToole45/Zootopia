@@ -1,3 +1,9 @@
+.mobile-filter,
+.mobile-display-title,
+.pagination-container-mobile {
+    display: none;
+}
+
 .prod-wrapper {
     display: flex;
     justify-content: space-between;

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="Assets/Styles/global.css">
 	<link rel="stylesheet" href="Assets/Media/global-media.css">
     <link rel="stylesheet" href="Assets/Styles/dog-prod.css">
+	<link rel="stylesheet" href="Assets/Media/dog-prod-media.css">
 	<link rel="stylesheet" href="Assets/Styles/index.css">
     <link rel="stylesheet" href="Assets/Styles/fonts.css">
 </head>
@@ -60,7 +61,7 @@
 		</div>
 
         <div class="nav-indicator">
-			<div>
+			<div class="nav-web-indicator">
 				<span style="color: grey;">
 					<a href="index.html" style="color: grey;">მთავარი</a>
 					<img src="Assets/Img/angle-down.png" alt="angle-down">
@@ -79,6 +80,13 @@
 				</select>
 			</div>
         </div>
+
+		<div class="mobile-filter">
+			<button>
+				<span>ფილტრაცია</span>
+				<img src="Assets/Img/Layer 2.svg" alt="filter-icon">
+			</button>
+		</div>
 	</header>
 	<div class="prod-wrapper">
 		<aside class="prod-filters">
@@ -339,6 +347,9 @@
 			</div>
 		</aside>
 		<section class="prod-display">
+			<div class="mobile-display-title">
+				<span>ზრდასრული ძაღლები</span>
+			</div>
 			<div class="prod-display-container">
 				<!-- Row 1 -->
 				<div class="product-item">
@@ -618,6 +629,15 @@
 			<span>...</span>
 			<a href="#">142</a>
 			<a href="#" class="page-2"></a>
+		</div>
+		<div class="pagination-container-mobile">
+			<div class="pag-nav-arrow">
+				<img src="Assets/Img/arrow-long-right.svg" alt="arrow-long-right">
+			</div>
+			<div class="pagination-mobile">
+				<span class="current-pg">4</span>
+				<span class="max-pg">/22</span>
+			</div>
 		</div>
 	</section>
 	<section class="pre-footer">
