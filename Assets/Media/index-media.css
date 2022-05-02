@@ -163,6 +163,10 @@
         width: 90vw;
     }
 
+    .extra-item {
+        margin: 0 0.3rem 2rem;
+    }
+
     .extra-item-1 img[alt=card-1],
     .extra-item-1 img[alt=card-2] {
         left: 0%;

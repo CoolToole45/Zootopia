@@ -7,6 +7,14 @@
     display: none;
 }
 
+.prod-title-mobile {
+    display: none;
+}
+
+.main-prod-buy-mobile {
+    display: none;
+}
+
 /* Main Section */
 .main-sec {
     margin-top: 5rem;
@@ -293,21 +301,25 @@
 
 /* More Info Section */
 .more-info-sec {
-    margin: 2rem 8rem 6rem;
+    margin: 8rem 1rem;
 }
 
 .more-info-title h1 {
     font-size: 28px;
     font-family: 'Myriad';
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 4vw;
 }
 
 .info-table-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.info-table {
+    margin: 0 4rem;
 }
 
 .info-table table td {

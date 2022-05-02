@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="Assets/Styles/global.css">
 	<link rel="stylesheet" href="Assets/Media/global-media.css">
 	<link rel="stylesheet" href="Assets/Styles/single-prod.css">
+	<link rel="stylesheet" href="Assets/Media/single-prod-media.css">
     <link rel="stylesheet" href="Assets/Styles/fonts.css">
 </head>
 <body>
@@ -74,6 +75,22 @@
             <span>პროდუქტის დასახელება</span>
         </div>
 	</header>
+	<section class="prod-title-mobile">
+		<div class="main-prod-title">
+			<h2 class="prod-title">ედვანსი მოზარდი ძაღლი Maxi Junior 14 კგ<h2>
+			<div class="minor-info">
+				<span>#12312412</span>
+				<a href="#" style="color: black;">
+					<img src="Assets/Img/facebook.svg" alt="facebook">
+					გააზიარე
+				</a>
+			</div>
+			<div class="current-price">
+				<span class="new-price">135.30₾</span>
+				<span class="discounted-price">158.50₾</span>
+			</div>
+		</div>
+	</section>
     <section class="main-sec">
         <div class="main-prod-display">
 			<div class="prod-img-selection">
@@ -139,6 +156,25 @@
 				<button>13 კს</button>
 				<button>2 კგ.</button>
 			</div>
+			<div class="main-prod-buy main-prod-buy-mobile">
+				<div class="prod-buy-wrapper">
+					<div class="current-price">
+						<span class="new-price">135.30₾</span>
+						<span class="discounted-price">158.50₾</span>
+					</div>
+					<div class="amount-selector">
+						<button id="decrease" class="action-btn">-</button>
+						<input type="number" id="amount-counter" value="0">
+						<button id="increase" class="action-btn">+</button>
+					</div>
+					<div class="add-to-cart">
+						<button>
+							<span>კალათაში დამატება</span>
+							<img src="Assets/Img/shopping-cart-green.svg" alt="shopping-cart">
+						</button>
+					</div>
+				</div>
+			</div>
 			<div class="prod-text-info">
 				<p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას 1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული.</p>
 				<p class="more-text-info hidden">ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე. შედეგად, ტექსტი ჩვეულებრივ ინგლისურს გავს, მისი წაითხვა კი შეუძლებელია. დღეს უამრავი პერსონალური საგამომცემლო პროგრამა და ვებგვერდი იყენებს Lorem Ipsum-ს, როგორც დროებით ტექსტს წყობის შესავსებად; Lorem Ipsum-ის მოძებნისას კი საძიებო სისტემები ბევრ დაუსრულებელ გვერდს გვიჩვენებენ. წლების მანძილზე ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის გამო, ზოგი კი — განზრახ, ხუმრობით.</p>
@@ -202,7 +238,7 @@
 					</tr>
 				</table>
 			</div>
-			<div class="info-table">
+			<div class="info-table table-2">
 				<table>
 					<tr>
 						<td>ზომა</td>

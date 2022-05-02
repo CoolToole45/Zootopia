@@ -1,0 +1,153 @@
+@media (max-width:990px) {
+    section {
+        padding: 1rem;
+    }
+
+    .nav-indicator {
+        display: none;
+    }
+
+    .prod-title-mobile {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .minor-info {
+        margin-left: 1vw;
+        justify-content: initial;
+    }
+
+    .main-prod-display {
+        flex-direction: column-reverse;
+    }
+
+    .prod-img-selection {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .main-sec {
+        margin-top: 2rem;
+    }
+
+    .main-display {
+        text-align: center;
+    }
+
+    .prod-img-display img {
+        margin-left: 0;
+        width: 90vw;
+        height: 20rem;
+    }
+
+    .main-prod-info .main-prod-title,
+    .main-prod-buy .current-price {
+        display: none;
+    }
+
+    .prod-amount {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: auto;
+    }
+
+    .main-prod-buy {
+        display: none;
+    }
+
+    .main-prod-buy-mobile {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .main-prod-buy-mobile .prod-buy-wrapper {
+        background: none;
+    }
+
+    #amount-counter {
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .prod-amount button {
+        width: 10rem;
+    }
+
+    .prod-text-info {
+        width: 23rem;
+    }
+
+    .more-info-title h1 {
+        font-size: 23px;
+    }
+
+    .info-table-container {
+        flex-direction: column;
+    }
+
+    .info-table-container .info-table {
+        margin: 1rem 4rem;
+    }
+
+    .table-2 td:nth-child(odd) {
+        padding-right: 10rem!important;
+    }
+
+    #modal-display .main-display img {
+        width: 256px;
+        height: 320px;
+    }
+
+    .modal-content-wrapper {
+        flex-direction: column-reverse;
+        position: absolute;
+        top: 12rem;
+    }
+
+    #modal-display .close-btn {
+        position: absolute;
+        top: 1rem;
+    }
+
+    #modal-display .prod-img img {
+        width: 5rem;
+    }
+
+    #modal-display .prod-img {
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .prod-amount {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .prod-text-info {
+        width: auto;
+    }
+
+    #modal-display .main-display img {
+        width: 36rem;
+        height: 30rem;
+    }
+
+    .modal-content-wrapper {
+        flex-direction: column-reverse;
+        position: absolute;
+        top: 12rem;
+    }
+
+    #modal-display .close-btn {
+        position: absolute;
+        top: 1rem;
+    }
+
+    #modal-display .prod-img img {
+        width: 8rem;
+    }
+
+    #modal-display .prod-img {
+        margin: 1rem;
+    }
+}
