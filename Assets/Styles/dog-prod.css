@@ -335,3 +335,78 @@ input[type="range"]::-moz-range-thumb {
 .page-2:hover {
     color: #74B42C;
 }
+
+
+
+/* Dog Prod Media CSS */
+
+@media (max-width: 990px) {
+    .nav-web-indicator,
+    .prod-filters,
+    .pagination-container {
+        display: none;
+    }
+
+    .nav-indicator {
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
+    .prod-display {
+        margin-left: 0;
+        margin-top: 3rem;
+        width: auto;
+    }
+
+    .mobile-filter {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-filter button {
+        background-color: #fff;
+        border: none;
+        padding: 1rem 2rem;
+        font-family: 'Myriad';
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        box-shadow: 0px 10px 30px #597DBC0D;
+    }
+
+    .mobile-filter button span {
+        margin-right: 4rem;
+    }
+
+    .mobile-display-title {
+        display: block;
+        margin-bottom: 1rem;
+        font-family: 'FiraGO', sans-serif;
+        font-size: 16px;
+    }
+
+    .pagination-container-mobile {
+        display: block;
+    }
+
+    .pagination-mobile {
+        font-family: 'FiraGO', sans-serif;
+        text-align: center;
+    }
+
+    .pagination-mobile .current-pg {
+        font-size: 22px;
+        color: #111111;
+    }
+
+    .pagination-mobile .max-pg {
+        font-size: 18px;
+        color: #C8C8C8;
+    }
+
+    .pag-nav-arrow {
+        margin-right: 15rem;
+        padding: 1rem;
+        cursor: pointer;
+    }
+}
