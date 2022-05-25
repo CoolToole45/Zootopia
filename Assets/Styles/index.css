@@ -83,13 +83,13 @@ body img[alt=leaf-6] {
     background-color: #fff;
     opacity: 20%;
     padding: 1.5rem;
-    background-image: url(../Img/arrow-long-right-1.png);
+    background-image: url(/Assets/Img/arrow-long-right-1.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .swiper-button-next {
-    background-image: url(../Img/arrow-long-right.png);
+    background-image: url(/Assets/Img/arrow-long-right.png);
 }
 
 .swiper-button-next:hover,
