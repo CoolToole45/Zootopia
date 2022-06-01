@@ -56,6 +56,10 @@ body img[alt=leaf-6] {
     border-radius: 20px;
 }
 
+.swiper {
+    width: 100%;
+}
+
 .main-slide {
     text-align: center;
     background: #fff;
@@ -354,14 +358,15 @@ body img[alt=leaf-6] {
 
 /* Top Products Start */
 .top-products-container {
-    margin: 1rem 16rem 6rem;
+    margin: 3rem 0 6rem;
 }
 
 .top-prod-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    width: 87rem;
+    margin: 2rem auto;
 }
 
 .top-prod-title h2 {
@@ -555,15 +560,13 @@ body img[alt=leaf-6] {
 /* Extra Promo Start */
 .extra-promo {
     display: flex;
-    justify-content: center;
-    margin: 4rem 8rem;
+    justify-content: space-between;
 }
 
 .extra-item {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin: 0 4rem;
     width: 378px;
     height: 500px;
     border-radius: 10px;
@@ -669,6 +672,7 @@ body img[alt=leaf-6] {
 .turtle-banner {
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .banner-container {
@@ -700,7 +704,8 @@ body img[alt=leaf-6] {
 
 /* Brends Start */
 .brands {
-    margin: 4rem 0 10rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 
 .brands-container {
@@ -708,11 +713,16 @@ body img[alt=leaf-6] {
     flex-direction: column;
 }
 
+.brands-title {
+    width: 87rem;
+    margin: 0 auto;
+}
+
 .brands-title h2 {
     font-family: "Myriad";
     font-weight: 600;
     font-size: 28px;
-    margin: 0 16rem 2rem;
+    margin: 2rem 0;
 }
 
 .brands-slider {
@@ -772,4 +782,277 @@ body img[alt=leaf-6] {
 
 .mobile-item-container {
     display: none;
+}
+
+
+
+/* Index Media */
+@media (max-width: 1280px) {
+    header {
+        background-color: #F5AD00;
+    }
+
+    section {
+        overflow-x: hidden;
+    }
+
+    /* Intro Section */
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none!important;
+    }
+
+    .swiper {
+        width: 100vw;
+        margin-top: 5rem;
+        border-radius: 20px;
+    }
+
+    .intro-perks {
+        flex-direction: column;
+    }
+
+    .main-slider {
+        margin: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .main-slide {
+        background-image: url(/Assets/Img/Rectangle\ 83.png);
+        background-color: #F5AD00;
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+
+    /* Intro-perks */
+    .perk {
+        margin-bottom: 1rem;
+        box-shadow: 0.5px 0.9px rgba(0, 0, 0, 0.1);
+    }   
+
+
+    /* Promotions */
+    .promo-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .item-1 {
+        height: 419px;
+    }
+
+    .item-2 {
+        height: 220px;
+    }
+
+    .item-3 {
+        height: 250px;
+        background-image: url(/Assets/Img/bird.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: 100% 100%;
+    }
+
+    .item-2-info {
+        margin: 1.5rem 4rem;
+    }
+
+    .item-3 img {
+        display: none;
+    }
+
+    .item-4 {
+        height: 350px;
+    }
+
+    .item-4-info {
+        margin: 1rem;
+        flex-direction: row-reverse;
+    }
+
+    .item-4 img[alt=cat-1] {
+        top: 34.5%;
+        width: 100%;
+    }
+
+    .item-4 img[alt=cat-2] {
+        display: none;
+    }
+
+
+    /* Top Products */
+    .product-slider-mobile {
+        display: block;
+    }
+
+    .product-slider {
+        display: none;
+    }
+
+    .top-prod-title {
+        justify-content: space-evenly;
+        width: auto;
+    }
+
+    .top-prod-title h2 {
+        font-size: 6vw;
+    }
+
+    .top-products-container {
+        margin: 0;
+    }
+
+    .next-prev-btn {
+        display: none;
+    }
+
+    .top-prod-title a {
+        display: none;
+    }
+
+    .pagination {
+        display: block;
+        padding-left: 30px;
+        cursor: pointer;
+    }
+
+    .pagination p {
+        color: #E7E7E7;
+        float: left;
+        padding: 8px;
+        text-decoration: none;
+        background-color: #E7E7E7;
+    }
+
+    .pagination p.active {
+        background-color: #4CAF50;
+        color: #4CAF50;
+        border-radius: 4px;
+    }
+
+
+    /* Extra Promo */
+    .extra-promo {
+        flex-direction: column;
+        justify-content: center;
+        margin: 4rem 4%;
+    }
+
+    .extra-promo > * {
+        margin-bottom: 2rem;
+        width: 90vw;
+    }
+
+    .extra-item {
+        margin: 0 0.3rem 2rem;
+    }
+
+    .extra-item-1 img[alt=card-1],
+    .extra-item-1 img[alt=card-2] {
+        left: 0%;
+    }
+
+    .extra-item-2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .extra-item-3 .discount-se img{
+        width: 43vw;
+        top: -3.5%;
+    }
+
+
+    /* Turtle Banner */
+    .turtle-banner {
+        margin: 2rem 0;
+    }
+
+    .banner-container {
+        width: 95vw;
+    }
+
+    .banner-info {
+        padding: 2rem;
+        font-size: 20px;
+    }
+
+    .banner-img {
+        top: 42%;
+        left: 42%;
+    }
+
+    .banner-img img {
+        width: 70%;
+    }
+
+
+    /* Brands */
+    .brands-slider-mobile {
+        display: block;
+    }
+
+    .brands-slider {
+        display: none;
+    }
+
+    .brands-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .brands-title h2 {
+        margin: 0;
+    }
+
+
+    .mobile-item-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-item-wrapper {
+        background-color: #fff;
+        margin: 2rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mobile-item-container img {
+        width: 100%;
+    }   
+
+    .promo-btn-div {
+        background-color: #fff;
+        width: 82vw;
+        position: absolute;
+        top: 80%;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .promo-btn-div .promo-btn {
+        color: #fff;
+        background-color: #000;
+    }
+
+    .promo-btn-div .promo-btn:active {
+        color: #000;
+        background-color: #F5AD00;
+    }
 }

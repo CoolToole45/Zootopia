@@ -301,7 +301,8 @@
 
 /* More Info Section */
 .more-info-sec {
-    margin: 8rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 .more-info-title h1 {

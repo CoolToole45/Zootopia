@@ -39,7 +39,7 @@ body img[alt=leaf-4] {
 
 .main-text {
     text-align: left;
-    width: 106vh;
+    width: 62rem;
     margin: 4rem 0;
 }
 
@@ -68,7 +68,7 @@ body img[alt=leaf-4] {
 
 /* About Media CSS */
 
-@media (max-width: 990px) {
+@media (max-width: 1280px) {
     .main-text {
         width: 100%;
         padding: 1rem;
