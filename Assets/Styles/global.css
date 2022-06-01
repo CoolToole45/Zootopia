@@ -331,4 +331,9 @@ section {
     .menu-btn:active {
         background-color: #54772d;
     }
+
+    .menu-btn img {
+        width: 19px;
+        height: 12px;
+    }
 }

@@ -186,7 +186,6 @@ body img[alt=leaf-6] {
     background-color: #E3F0D4;
     padding: 1rem;
     border-radius: 10px;
-    margin: 0 2rem;
 }
 
 .perk-info {
@@ -194,7 +193,8 @@ body img[alt=leaf-6] {
     font-weight: 500;
     font-size: 20px;
     word-wrap: break-word;
-    width: 70%;
+    max-width: 10rem;
+    margin-left: 1rem;
 }
 /* Perks End */
 
@@ -320,7 +320,7 @@ body img[alt=leaf-6] {
 .item-3 img {
     position: absolute;
     left: 24.2%;
-    top: -21.4%;
+    top: -21.1%;
     width: 76%;
 }
 
