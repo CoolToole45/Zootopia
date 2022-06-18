@@ -34,6 +34,20 @@ section {
 .rotatetUp {
     rotate: 180deg;
 }
+
+/* Global Fonts */
+/* Myriad */
+@font-face {
+    font-family: "Myriad";
+    src: url(../Fonts/Myriad.TTF);
+}
+
+/* FiraGo */
+@font-face {
+    font-family: "FiraGO";
+    src: url(../Fonts/FiraGO-M.otf);
+}
+
 /* Global End */
 
 

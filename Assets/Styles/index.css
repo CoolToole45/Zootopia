@@ -87,13 +87,13 @@ body img[alt=leaf-6] {
     background-color: #fff;
     opacity: 20%;
     padding: 1.5rem;
-    background-image: url(/Assets/Img/arrow-long-right-1.png);
+    background-image: url(../Img/arrow-long-right-1.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .swiper-button-next {
-    background-image: url(/Assets/Img/arrow-long-right.png);
+    background-image: url(../Img/arrow-long-right.png);
 }
 
 .swiper-button-next:hover,
@@ -825,7 +825,7 @@ body img[alt=leaf-6] {
     }
 
     .main-slide {
-        background-image: url(/Assets/Img/Rectangle\ 83.png);
+        background-image: url(../Img/Rectangle\ 83.webp);
         background-color: #F5AD00;
         background-size: 60%;
         background-repeat: no-repeat;
@@ -857,7 +857,7 @@ body img[alt=leaf-6] {
 
     .item-3 {
         height: 250px;
-        background-image: url(/Assets/Img/bird.png);
+        background-image: url(../Img/bird.webp);
         background-repeat: no-repeat;
         background-size: 60%;
         background-position: 100% 100%;

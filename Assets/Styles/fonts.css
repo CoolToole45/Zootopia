@@ -1,9 +1,0 @@
-/* FiraGo Regular */
-@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400');
-@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:500');
-
-/* Myriad */
-@font-face {
-    font-family: "Myriad";
-    src: url(../Fonts/Myriad.TTF);
-}
