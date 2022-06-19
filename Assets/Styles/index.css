@@ -569,6 +569,7 @@ body img[alt=leaf-6] {
     flex-direction: column;
     width: 378px;
     height: 500px;
+    /* width: 100%; */
     border-radius: 10px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
 }
@@ -785,9 +786,7 @@ body img[alt=leaf-6] {
 }
 
 
-
-/* Index Media */
-@media (max-width: 1280px) {
+@media (min-width:360px) and (max-width:1024px) {
     header {
         background-color: #F5AD00;
     }
@@ -827,7 +826,7 @@ body img[alt=leaf-6] {
     .main-slide {
         background-image: url(../Img/Rectangle\ 83.webp);
         background-color: #F5AD00;
-        background-size: 60%;
+        background-size: 45%;
         background-repeat: no-repeat;
         background-position: bottom;
     }
@@ -837,8 +836,15 @@ body img[alt=leaf-6] {
     .perk {
         margin-bottom: 1rem;
         box-shadow: 0.5px 0.9px rgba(0, 0, 0, 0.1);
+        width: 24rem;
+        height: 8rem;
     }   
 
+    .perk .perk-info {
+        font-size: 1.5rem;
+        max-width: 12rem;
+        margin-left: 2.5rem;
+    }
 
     /* Promotions */
     .promo-container {
@@ -945,16 +951,25 @@ body img[alt=leaf-6] {
     .extra-promo {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin: 4rem 4%;
+    }
+
+    .top-prod-title h2 {
+        font-size: 4vw;
     }
 
     .extra-promo > * {
         margin-bottom: 2rem;
-        width: 90vw;
+        width: 22rem;
     }
 
     .extra-item {
         margin: 0 0.3rem 2rem;
+    }
+
+    .extra-item-1 img[alt=info-text] {
+        height: 100%;
     }
 
     .extra-item-1 img[alt=card-1],
@@ -968,8 +983,7 @@ body img[alt=leaf-6] {
     }
 
     .extra-item-3 .discount-se img{
-        width: 43vw;
-        top: -3.5%;
+        width: 11.9rem;
     }
 
 
@@ -988,7 +1002,7 @@ body img[alt=leaf-6] {
     }
 
     .banner-img {
-        top: 42%;
+        top: 35%;
         left: 42%;
     }
 
@@ -1000,6 +1014,7 @@ body img[alt=leaf-6] {
     /* Brands */
     .brands-slider-mobile {
         display: block;
+        padding: 1rem!important;
     }
 
     .brands-slider {
@@ -1023,6 +1038,7 @@ body img[alt=leaf-6] {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
     .mobile-item-wrapper {
@@ -1038,9 +1054,9 @@ body img[alt=leaf-6] {
 
     .promo-btn-div {
         background-color: #fff;
-        width: 82vw;
+        width: 26.1rem;
         position: absolute;
-        top: 80%;
+        top: 50%;
         padding: 1rem;
         display: flex;
         justify-content: center;

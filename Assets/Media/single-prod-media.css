@@ -1,4 +1,4 @@
-@media (max-width:990px) {
+@media (min-width:360px) and (max-width:1024px) {
     section {
         padding: 1rem;
     }
@@ -9,7 +9,7 @@
 
     .prod-title-mobile {
         display: block;
-        margin-top: 2rem;
+        margin: 2rem;
     }
 
     .minor-info {
@@ -37,7 +37,7 @@
     .prod-img-display img {
         margin-left: 0;
         width: 90vw;
-        height: 20rem;
+        height: 45vh;
     }
 
     .main-prod-info .main-prod-title,
@@ -114,40 +114,5 @@
 
     #modal-display .prod-img {
         margin: 0 0.5rem;
-    }
-}
-
-@media (max-width:1024px) {
-    .prod-amount {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .prod-text-info {
-        width: auto;
-    }
-
-    #modal-display .main-display img {
-        width: 36rem;
-        height: 30rem;
-    }
-
-    .modal-content-wrapper {
-        flex-direction: column-reverse;
-        position: absolute;
-        top: 12rem;
-    }
-
-    #modal-display .close-btn {
-        position: absolute;
-        top: 1rem;
-    }
-
-    #modal-display .prod-img img {
-        width: 8rem;
-    }
-
-    #modal-display .prod-img {
-        margin: 1rem;
     }
 }

@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-display: swap;
 }
 
 ul {
@@ -236,7 +237,7 @@ section {
 
 /* Global Media CSS */
 
-@media (max-width:1280px) {
+@media (min-width:360px) and (max-width:1024px) {
     .pre-footer {
         display: none;
     }

@@ -462,7 +462,7 @@ input[type="range"]::-moz-range-thumb {
 
 /* Dog Prod Media CSS */
 
-@media (max-width: 990px) {
+@media (min-width:360px) and (max-width:1024px) {
     .nav-web-indicator,
     .prod-filters,
     .pagination-container {
@@ -475,7 +475,7 @@ input[type="range"]::-moz-range-thumb {
     }
 
     .prod-display {
-        margin-left: 0;
+        margin-left: auto!important;
         margin-top: 3rem;
         width: auto;
     }
