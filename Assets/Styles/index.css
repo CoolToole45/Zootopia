@@ -567,9 +567,8 @@ body img[alt=leaf-6] {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 378px;
-    height: 500px;
-    /* width: 100%; */
+    width: 379px;
+    height: 501px;
     border-radius: 10px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
 }
