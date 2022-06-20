@@ -196,6 +196,10 @@ body img[alt=leaf-6] {
     max-width: 10rem;
     margin-left: 1rem;
 }
+
+.perk-info span {
+    text-shadow: 1px 1px rgb(138, 138, 138);
+}
 /* Perks End */
 
 
@@ -227,26 +231,29 @@ body img[alt=leaf-6] {
 
 .info-title {
     color: #FFFFFF;
+    text-shadow: 1px 1px black;
     font-family: "Myriad";
     font-weight: 600;
-    font-size: 14px;
-    width: 51%;
+    font-size: 16px;
+    width: 60%;
     padding-bottom: 0.3rem;
     border-bottom: 1px solid rgba(224, 224, 224, 0.5);
 }
 
-.info-text span {
+.info-text {
     font-family: "Myriad";
     font-weight: 600;
     font-size: 24px;
     color: #FFFFFF;
+    text-shadow: 1px 1px black;
+}
+
+.info-text span {
+    font-size: 24px;
 }
 
 .info-text p {
-    font-family: "Myriad";
-    font-weight: 600;
     font-size: 18px;
-    color: #FFFFFF;
 }
 
 .promo-btn {
@@ -533,7 +540,7 @@ body img[alt=leaf-6] {
 
 .added-item {
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'FiraGO', sans-serif;
     font-weight: 500;
     padding: 0.5rem;
@@ -589,9 +596,12 @@ body img[alt=leaf-6] {
 }
 
 /* Extra Item 2 */
+.extra-item-2 {
+    background-color: #fee02e;
+}
+
 .extra-item-2 img {
     position: absolute;
-    z-index: -1;
 }
 
 .extra-item-2 .extra-info {
@@ -689,8 +699,9 @@ body img[alt=leaf-6] {
     position: absolute;
     padding: 3rem 7rem;
     color: #fff;
+    text-shadow: 1px 1px black;
     font-family: "Myriad";
-    font-weight: 400;
+    font-weight: 600;
     font-size: 32px;
 }
 
@@ -952,10 +963,6 @@ body img[alt=leaf-6] {
         justify-content: center;
         align-items: center;
         margin: 4rem 4%;
-    }
-
-    .top-prod-title h2 {
-        font-size: 4vw;
     }
 
     .extra-promo > * {
