@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-display: swap;
 }
 
 ul {
@@ -41,12 +40,14 @@ section {
 @font-face {
     font-family: "Myriad";
     src: url(../Fonts/Myriad.TTF);
+    font-display: swap;
 }
 
 /* FiraGo */
 @font-face {
     font-family: "FiraGO";
     src: url(../Fonts/FiraGO-M.otf);
+    font-display: swap;
 }
 
 /* Global End */
@@ -271,7 +272,7 @@ section {
     }
     
     .mobile-control-panel > * {
-        padding: 3vh 3vw;
+        padding: 3vh 1vw;
     }
 
     .lang-control > * {
